@@ -1,0 +1,124 @@
+center:
+  - -75.17395
+  - 39.930801
+glyphs: http://yourlocation/glyphs/{fontstack}/{range}.pbf
+layers:
+  - !!inc/file layers/background.yml
+  - !!inc/file layers/pg-structure.yml
+  - !!inc/file layers/pg-landuse.yml
+  - !!inc/file layers/pg-nature.yml
+  - !!inc/file layers/pg-boundary.yml
+  - !!inc/file layers/pg-place.yml
+  - !!inc/file layers/pg-other.yml
+  - !!inc/file layers/pg-railway.yml
+  - !!inc/file layers/pg-road.yml
+  - !!inc/file layers/pg-route.yml
+  - !!inc/file layers/ls-landuse.yml
+  - !!inc/file layers/ls-nature.yml
+  - !!inc/file layers/pg-water-wetland.yml
+  - !!inc/file layers/ls-water.yml
+  - !!inc/file layers/pg-water.yml
+  - !!inc/file layers/ls-boundary-other.yml
+  - !!inc/file layers/ls-boundary-international-disputed.yml
+  - !!inc/file layers/ls-boundary-international.yml
+  - !!inc/file layers/ls-road-line-h.yml
+  - !!inc/file layers/ls-road-line-h-dash.yml
+  - !!inc/file layers/ls-road-case-underground.yml
+  - !!inc/file layers/ls-road-line-g-underground.yml
+  - !!inc/file layers/ls-road-line-f-underground.yml
+  - !!inc/file layers/ls-road-line-e-underground.yml
+  - !!inc/file layers/ls-road-line-d-underground.yml
+  - !!inc/file layers/ls-road-line-c-underground.yml
+  - !!inc/file layers/ls-road-line-b-underground.yml
+  - !!inc/file layers/ls-road-line-a-underground.yml
+  - !!inc/file layers/ls-road-case-g.yml
+  - !!inc/file layers/ls-road-case-f.yml
+  - !!inc/file layers/ls-road-case-e.yml
+  - !!inc/file layers/ls-road-case-d.yml
+  - !!inc/file layers/ls-road-case-c.yml
+  - !!inc/file layers/ls-road-case-b.yml
+  - !!inc/file layers/ls-road-case-a.yml
+  - !!inc/file layers/ls-road-line-g.yml
+  - !!inc/file layers/ls-road-line-f.yml
+  - !!inc/file layers/ls-road-line-e.yml
+  - !!inc/file layers/ls-road-line-d.yml
+  - !!inc/file layers/ls-road-line-c.yml
+  - !!inc/file layers/ls-road-line-b.yml
+  - !!inc/file layers/ls-road-line-a.yml
+  - !!inc/file layers/ls-road-case-1.yml
+  - !!inc/file layers/ls-road-line-g-1.yml
+  - !!inc/file layers/ls-road-line-f-1.yml
+  - !!inc/file layers/ls-road-line-e-1.yml
+  - !!inc/file layers/ls-road-line-d-1.yml
+  - !!inc/file layers/ls-road-line-c-1.yml
+  - !!inc/file layers/ls-road-line-b-1.yml
+  - !!inc/file layers/ls-road-line-a-1.yml
+  - !!inc/file layers/ls-road-case-2.yml
+  - !!inc/file layers/ls-road-line-g-2.yml
+  - !!inc/file layers/ls-road-line-f-2.yml
+  - !!inc/file layers/ls-road-line-e-2.yml
+  - !!inc/file layers/ls-road-line-d-2.yml
+  - !!inc/file layers/ls-road-line-c-2.yml
+  - !!inc/file layers/ls-road-line-b-2.yml
+  - !!inc/file layers/ls-road-line-a-2.yml
+  - !!inc/file layers/ls-road-case-3.yml
+  - !!inc/file layers/ls-road-line-g-3.yml
+  - !!inc/file layers/ls-road-line-f-3.yml
+  - !!inc/file layers/ls-road-line-e-3.yml
+  - !!inc/file layers/ls-road-line-d-3.yml
+  - !!inc/file layers/ls-road-line-c-3.yml
+  - !!inc/file layers/ls-road-line-b-333.yml
+  - !!inc/file layers/ls-road-line-a-3.yml
+  - !!inc/file layers/ls-road-case-4.yml
+  - !!inc/file layers/ls-road-line-g-4.yml
+  - !!inc/file layers/ls-road-line-f-4.yml
+  - !!inc/file layers/ls-road-line-e-4.yml
+  - !!inc/file layers/ls-road-line-d-4.yml
+  - !!inc/file layers/ls-road-line-c-4.yml
+  - !!inc/file layers/ls-road-line-b-4.yml
+  - !!inc/file layers/ls-road-line-a-4.yml
+  - !!inc/file layers/ls-road-case-5.yml
+  - !!inc/file layers/ls-road-line-g-5.yml
+  - !!inc/file layers/ls-road-line-f-5.yml
+  - !!inc/file layers/ls-road-line-e-5.yml
+  - !!inc/file layers/ls-road-line-d-5.yml
+  - !!inc/file layers/ls-road-line-c-5.yml
+  - !!inc/file layers/ls-road-line-b-5.yml
+  - !!inc/file layers/ls-road-line-a-5.yml
+  - !!inc/file layers/ls-railway-subway.yml
+  - !!inc/file layers/ls-railway-line.yml
+  - !!inc/file layers/ls-railway-dash.yml
+  - !!inc/file layers/ls-route.yml
+  - !!inc/file layers/ls-structure.yml
+  - !!inc/file layers/ls-structure-taxiway.yml
+  - !!inc/file layers/ls-structure-runway.yml
+  - !!inc/file layers/ls-building.yml
+  - !!inc/file layers/ls-place.yml
+  - !!inc/file layers/ls-other.yml
+  - !!inc/file layers/pg-building-shadow.yml
+  - !!inc/file layers/pg-building.yml
+  - !!inc/file layers/pg-building-train-station.yml
+  - !!inc/file layers/pg-building-outline.yml
+  - !!inc/file layers/pt-nature.yml
+  - !!inc/file layers/pt-water.yml
+  - !!inc/file layers/pt-boundary.yml
+  - !!inc/file layers/pt-road.yml
+  - !!inc/file layers/pt-railway.yml
+  - !!inc/file layers/pt-route.yml
+  - !!inc/file layers/pt-structure.yml
+  - !!inc/file layers/pt-building.yml
+  - !!inc/file layers/ls-road-symbol.yml
+  - !!inc/file layers/pt-place.yml
+  - !!inc/file layers/pt-other.yml
+sources:
+  v:
+    attribution: >-
+      OpenStreetMap contributors, <img
+      src='https://unopengis.github.io/watermark/watermark.png'>
+    maxzoom: 15
+    tiles:
+      - http://localhost:9966/zxy/{z}/{x}/{y}.pbf
+    type: vector
+sprite: http://localhost:9966/sprite/sprite
+version: 8
+zoom: 11

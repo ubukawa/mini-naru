@@ -1,0 +1,17 @@
+filter:
+  - match
+  - - geometry-type
+  - - Polygon
+    - MultiPolygon
+  - true
+  - false
+id: pg-landuse
+paint:
+  fill-color:
+    - rgb
+    - 240
+    - 244
+    - 195
+source: v
+source-layer: landuse
+type: fill
