@@ -35,6 +35,12 @@ osmium export --config osmium-export-config.json --index-type=sparse_file_array 
 tile-join --force --no-tile-compression --output-to-directory=docs/zxy --no-tile-size-limit src/tiles.mbtiles
 ```
 
+## styling with unvt/charites (on Docker container)
+after editing a series of yaml files.
+```
+charites build style/style.yml docs/style.json
+```
+
 # License 
 The license follows the license of unvt/naru
 
