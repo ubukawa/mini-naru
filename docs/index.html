@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link rel="stylesheet" type="text/css" href="js/mapbox-gl.css">
+<style>
+body { margin: 0; top: 0; bottom: 0; width: 100%; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script src="js/mapbox-gl.js"></script>
+<script src="js/bundle.js"></script>
+<script>
+var map = new mapboxgl.Map({
+  container: "map", 
+  attributionControl: false,
+  hash: true, 
+  style: "./style.json", // style file path
+//  center: [0,0], // center [lng, lat]
+  zoom: 6, // zoom level at loading
+  minZoom: 5, // min zoom
+  maxZoom: 15 // max zoom
+});
+
+
+//UI
+map.addControl(new mapboxgl.AttributionControl({customAttribution: "<a href='https://geoportal.dfs.un.org/arcgis/apps/sites/#/unitemaps'><img src='https://geoportal.dfs.un.org/webapps/resources/LOGOS/PoweredbyUniteMaps.png' alt='Powered by Unite Maps'></a> <a href='http://unopengis.org/unopengis/main/main.php'><img src='https://unopengis.github.io/watermark/watermark.png' alt='UN OpenGIS' style='width:40px;height:40px;'></a>" }));
+map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
+map.addControl(new mapboxgl.ScaleControl() );
+
+
+//debug
+map.showTileBoundaries = false;
+map.showCollisionBoxes = false;
+
+</script>
+</body>
+</html>
+

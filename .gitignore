@@ -1,0 +1,4 @@
+node_modules
+src/*.osm.pbf
+src/*.mbtiles
+src/*.mbtiles-journal
