@@ -24,6 +24,12 @@ curl -C 'https://download.geofabrik.de/north-america/us-northeast-latest.osm.pbf
 ```
 osmium export --config osmium-export-config.json --index-type=sparse_file_array --output-format=geojsonseq --output=- src/us-northeast-latest.osm.pbf | node filter.js | tippecanoe --no-feature-limit --no-tile-size-limit --force --simplification=2 --maximum-zoom=15 --base-zoom=15 --hilbert --output=src/tiles.mbtiles
 ```
+You might want to use clip bounding box (--clip-bounding-box=minlon,minlat,maxlon,maxlat).
+```
+osmium export --config osmium-export-config.json --index-type=sparse_file_array --output-format=geojsonseq --output=- src/us-northeast-latest.osm.pbf | node filter.js | tippecanoe --no-feature-limit --no-tile-size-limit --force --simplification=2 --clip-bounding-box=40,-76,42,-72 --maximum-zoom=15 --base-zoom=15 --hilbert --output=src/tiles.mbtiles
+```
+
+
 
 ## ZXY tile creation from mbtiles (on Docker container)
 ```
