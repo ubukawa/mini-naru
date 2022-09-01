@@ -1,18 +1,15 @@
 {
-  "name": "data",
+  "name": "mini-naru",
   "version": "1.0.0",
   "description": "Tile creation subset of unvt/naru that works on unvt/nanban",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "tile.sh",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ubukawa/mini-naru.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "United Nations Vector Tile Toolkit",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ubukawa/mini-naru/issues"
   },
