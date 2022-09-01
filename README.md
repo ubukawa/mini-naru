@@ -3,8 +3,8 @@ Tile creation subset of unvt/naru that works on unvt/nanban
 
 # Background
 unvt/naru is a really good tool sets for learning the vector tile techniques.  
-However, it is based on the nodejs version 12 and it cannot be built as a Docker image anymore in my local environment.  
-I decided to extract a subset of OSM vector tile creation that would work on the unvt/nanban container.
+However, it is based on the nodejs version 12 and it cannot be built as a Docker image anymore in my local environment.   
+I cannot update whole unvt/naru immediately, so I decided to extract a subset of OSM vector tile creation that would work on the unvt/nanban container.
 
 # Usage
 ## Start unvt/naru (docker container)  
