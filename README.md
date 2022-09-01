@@ -16,7 +16,7 @@ npm install
 
 ## Download the data (on Docker container)
 ```
-curl -C 'https://download.geofabrik.de/north-america/us-northeast-latest.osm.pbf' --outout './src/#1'
+curl -C - 'https://download.geofabrik.de/north-america/{us-northeast-latest.osm.pbf}' --output './src/#1'
 ```
 
 ## Vector tile conversion to mbtiles  (on Docker container) 
