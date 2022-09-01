@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
-<link rel="stylesheet" type="text/css" href="js/mapbox-gl.css">
+<title>Map by mini-naru</title>
+<script src="maplibre-gl@2.4.0/maplibre-gl.js"></script>
+<link rel="stylesheet" type="text/css" href="maplibre-gl@2.4.0/maplibre-gl.css">
 <style>
 body { margin: 0; top: 0; bottom: 0; width: 100%; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
@@ -12,12 +13,10 @@ body { margin: 0; top: 0; bottom: 0; width: 100%; }
 </head>
 <body>
 <div id="map"></div>
-<script src="js/mapbox-gl.js"></script>
-<script src="js/bundle.js"></script>
 <script>
-var map = new mapboxgl.Map({
+var map = new maplibregl.Map({
   container: "map", 
-  attributionControl: false,
+//  attributionControl: false,
   hash: true, 
   style: "./style.json", // style file path
 //  center: [0,0], // center [lng, lat]
@@ -28,9 +27,9 @@ var map = new mapboxgl.Map({
 
 
 //UI
-map.addControl(new mapboxgl.AttributionControl({customAttribution: "<a href='https://geoportal.dfs.un.org/arcgis/apps/sites/#/unitemaps'><img src='https://geoportal.dfs.un.org/webapps/resources/LOGOS/PoweredbyUniteMaps.png' alt='Powered by Unite Maps'></a> <a href='http://unopengis.org/unopengis/main/main.php'><img src='https://unopengis.github.io/watermark/watermark.png' alt='UN OpenGIS' style='width:40px;height:40px;'></a>" }));
-map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
-map.addControl(new mapboxgl.ScaleControl() );
+map.addControl(new maplibregl.AttributionControl({customAttribution: "<a href='http://unopengis.org/unopengis/main/main.php'><img src='https://unopengis.github.io/watermark/watermark.png' alt='UN OpenGIS' style='width:40px;height:40px;'></a>" }));
+map.addControl(new maplibregl.NavigationControl(), "bottom-right");
+map.addControl(new maplibregl.ScaleControl() );
 
 
 //debug

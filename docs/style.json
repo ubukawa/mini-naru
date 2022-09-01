@@ -3,7 +3,7 @@
     -75.17395,
     39.930801
   ],
-  "glyphs": "http://localhost:9966/glyphs/{fontstack}/{range}.pbf",
+  "glyphs": "http://yourlocation/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
