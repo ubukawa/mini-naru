@@ -26,7 +26,7 @@ osmium export --config osmium-export-config.json --index-type=sparse_file_array 
 ```
 You might want to use clip bounding box (--clip-bounding-box=minlon,minlat,maxlon,maxlat). (It does not go well yet. I might be wrong at some place.)
 ```
-osmium export --config osmium-export-config.json --index-type=sparse_file_array --output-format=geojsonseq --output=- src/us-northeast-latest.osm.pbf | node filter.js | tippecanoe --no-feature-limit --no-tile-size-limit --force --simplification=2 --clip-bounding-box=40,-76,42,-72 --maximum-zoom=15 --base-zoom=15 --hilbert --output=src/tiles.mbtiles
+osmium export --config osmium-export-config.json --index-type=sparse_file_array --output-format=geojsonseq --output=- src/us-northeast-latest.osm.pbf | node filter.js | tippecanoe --no-feature-limit --no-tile-size-limit --force --simplification=2 --clip-bounding-box=40.000,-76.000,42.000,-72.000 --maximum-zoom=12 --base-zoom=12 --hilbert --output=src/tiles.mbtiles
 ```
 
 
