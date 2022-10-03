@@ -3,7 +3,7 @@
     -75.17395,
     39.930801
   ],
-  "glyphs": "http://yourlocation/glyphs/{fontstack}/{range}.pbf",
+  "glyphs": "glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -6996,12 +6996,12 @@
       "attribution": "OpenStreetMap contributors, <img src='https://unopengis.github.io/watermark/watermark.png'>",
       "maxzoom": 15,
       "tiles": [
-        "http://localhost:9966/zxy/{z}/{x}/{y}.pbf"
+        "zxy/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
   },
-  "sprite": "http://localhost:9966/sprite/sprite",
+  "sprite": "sprite/sprite",
   "version": 8,
   "zoom": 11
 }
