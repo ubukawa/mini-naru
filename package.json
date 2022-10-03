@@ -2,7 +2,6 @@
   "name": "mini-naru",
   "version": "1.0.0",
   "description": "Tile creation subset of unvt/naru that works on unvt/nanban",
-  "main": "tile.sh",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ubukawa/mini-naru.git"
@@ -16,7 +15,6 @@
   "homepage": "https://github.com/ubukawa/mini-naru#readme",
   "dependencies": {
     "@mapbox/geojson-area": "^0.2.2",
-    "dotenv": "^16.0.2",
     "json-text-sequence": "^1.0.1"
   }
 }
