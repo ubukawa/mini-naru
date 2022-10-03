@@ -7,4 +7,3 @@ const parser = new Parser()
   })
 
 process.stdin.pipe(parser)
-
